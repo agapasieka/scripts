@@ -3,10 +3,10 @@
 # Step 1: Create the Blog HTML File
 
 1. Create a directory for your project
-  ```
-  mkdir nginx-blog
-  cd nginx-blog
-  ```
+   ```
+   mkdir nginx-blog
+   cd nginx-blog
+   ```
 2. Create the blog.html file
    ```
    nano blog.html
