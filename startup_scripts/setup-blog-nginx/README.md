@@ -98,9 +98,9 @@ This Dockerfile uses the official Nginx image and copies your blog.html file int
    ```
 
 # Step 5: Delete continer
-  ```
-  docker rm -f nginx-blog-container
-  ```
+   ```
+   docker rm -f nginx-blog-container
+   ```
 
 ## The End
 
