@@ -92,7 +92,7 @@ This Dockerfile uses the official Nginx image and copies your blog.html file int
 
 # Step 4: Test the Blog Page
 
-   Open your web browser and go to
+Open your web browser and go to
    ```
    http://localhost:8080
    ```
