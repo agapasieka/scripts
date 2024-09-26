@@ -1,6 +1,6 @@
-## Test the blog page using a Docker container
+# Test the blog page using a Docker container
 
-# Step 1: Create the Blog HTML File
+## Step 1: Create the Blog HTML File
 
 1. Create a directory for your project
    ```
@@ -64,7 +64,7 @@
    ```
 4. Save and close the file (CTRL + X, then Y, and ENTER)
 
-# Step 2. Create a Dockerfile
+## Step 2. Create a Dockerfile
 1. Create a Dockerfile in the same directory
    ```
    nano Dockerfile
@@ -79,7 +79,7 @@
    ```
 This Dockerfile uses the official Nginx image and copies your blog.html file into the container's default web directory, renaming it to index.html so that it is served as the home page.
 
-# Step 3: Build and Run the Docker Container
+## Step 3: Build and Run the Docker Container
 
 1. Build the Docker image
    ```
@@ -90,9 +90,9 @@ This Dockerfile uses the official Nginx image and copies your blog.html file int
    docker run -d -p 8080:80 --name nginx-blog-container nginx-blog
    ```
 
-# Step 4: Test the Blog Page
+## Step 4: Test the Blog Page
 
-Open your web browser and go to
+  Open your web browser and go to
    ```
    http://localhost:8080
    ```
